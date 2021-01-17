@@ -1724,6 +1724,11 @@
   resolved "https://registry.npm.taobao.org/@types/json5/download/@types/json5-0.0.29.tgz#ee28707ae94e11d2b827bcbe5270bcea7f3e71ee"
   integrity sha1-7ihweulOEdK4J7y+UnC86n8+ce4=
 
+"@types/lodash@^4.14.167":
+  version "4.14.167"
+  resolved "https://registry.npm.taobao.org/@types/lodash/download/@types/lodash-4.14.167.tgz?cache=0&sync_timestamp=1609519871090&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Flodash%2Fdownload%2F%40types%2Flodash-4.14.167.tgz#ce7d78553e3c886d4ea643c37ec7edc20f16765e"
+  integrity sha1-zn14VT48iG1OpkPDfsftwg8Wdl4=
+
 "@types/minimatch@*":
   version "3.0.3"
   resolved "https://registry.npm.taobao.org/@types/minimatch/download/@types/minimatch-3.0.3.tgz?cache=0&sync_timestamp=1605054612683&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fminimatch%2Fdownload%2F%40types%2Fminimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
@@ -1785,6 +1790,107 @@
   integrity sha1-8mB00jjgJlnjI84aE9BB7uKA4ZQ=
   dependencies:
     "@types/node" "*"
+
+"@types/rx-core-binding@*":
+  version "4.0.4"
+  resolved "https://registry.npm.taobao.org/@types/rx-core-binding/download/@types/rx-core-binding-4.0.4.tgz?cache=0&sync_timestamp=1605058151735&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Frx-core-binding%2Fdownload%2F%40types%2Frx-core-binding-4.0.4.tgz#d969d32f15a62b89e2862c17b3ee78fe329818d3"
+  integrity sha1-2WnTLxWmK4nihiwXs+54/jKYGNM=
+  dependencies:
+    "@types/rx-core" "*"
+
+"@types/rx-core@*":
+  version "4.0.3"
+  resolved "https://registry.npm.taobao.org/@types/rx-core/download/@types/rx-core-4.0.3.tgz?cache=0&sync_timestamp=1605058151571&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Frx-core%2Fdownload%2F%40types%2Frx-core-4.0.3.tgz#0b3354b1238cedbe2b74f6326f139dbc7a591d60"
+  integrity sha1-CzNUsSOM7b4rdPYybxOdvHpZHWA=
+
+"@types/rx-lite-aggregates@*":
+  version "4.0.3"
+  resolved "https://registry.npm.taobao.org/@types/rx-lite-aggregates/download/@types/rx-lite-aggregates-4.0.3.tgz#6efb2b7f3d5f07183a1cb2bd4b1371d7073384c2"
+  integrity sha1-bvsrfz1fBxg6HLK9SxNx1wczhMI=
+  dependencies:
+    "@types/rx-lite" "*"
+
+"@types/rx-lite-async@*":
+  version "4.0.2"
+  resolved "https://registry.npm.taobao.org/@types/rx-lite-async/download/@types/rx-lite-async-4.0.2.tgz?cache=0&sync_timestamp=1605060875812&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Frx-lite-async%2Fdownload%2F%40types%2Frx-lite-async-4.0.2.tgz#27fbf0caeff029f41e2d2aae638b05e91ceb600c"
+  integrity sha1-J/vwyu/wKfQeLSquY4sF6RzrYAw=
+  dependencies:
+    "@types/rx-lite" "*"
+
+"@types/rx-lite-backpressure@*":
+  version "4.0.3"
+  resolved "https://registry.npm.taobao.org/@types/rx-lite-backpressure/download/@types/rx-lite-backpressure-4.0.3.tgz?cache=0&sync_timestamp=1605060876372&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Frx-lite-backpressure%2Fdownload%2F%40types%2Frx-lite-backpressure-4.0.3.tgz#05abb19bdf87cc740196c355e5d0b37bb50b5d56"
+  integrity sha1-Bauxm9+HzHQBlsNV5dCze7ULXVY=
+  dependencies:
+    "@types/rx-lite" "*"
+
+"@types/rx-lite-coincidence@*":
+  version "4.0.3"
+  resolved "https://registry.npm.taobao.org/@types/rx-lite-coincidence/download/@types/rx-lite-coincidence-4.0.3.tgz?cache=0&sync_timestamp=1605060876201&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Frx-lite-coincidence%2Fdownload%2F%40types%2Frx-lite-coincidence-4.0.3.tgz#80bd69acc4054a15cdc1638e2dc8843498cd85c0"
+  integrity sha1-gL1prMQFShXNwWOOLciENJjNhcA=
+  dependencies:
+    "@types/rx-lite" "*"
+
+"@types/rx-lite-experimental@*":
+  version "4.0.1"
+  resolved "https://registry.npm.taobao.org/@types/rx-lite-experimental/download/@types/rx-lite-experimental-4.0.1.tgz#c532f5cbdf3f2c15da16ded8930d1b2984023cbd"
+  integrity sha1-xTL1y98/LBXaFt7Ykw0bKYQCPL0=
+  dependencies:
+    "@types/rx-lite" "*"
+
+"@types/rx-lite-joinpatterns@*":
+  version "4.0.1"
+  resolved "https://registry.npm.taobao.org/@types/rx-lite-joinpatterns/download/@types/rx-lite-joinpatterns-4.0.1.tgz#f70fe370518a8432f29158cc92ffb56b4e4afc3e"
+  integrity sha1-9w/jcFGKhDLykVjMkv+1a05K/D4=
+  dependencies:
+    "@types/rx-lite" "*"
+
+"@types/rx-lite-testing@*":
+  version "4.0.1"
+  resolved "https://registry.npm.taobao.org/@types/rx-lite-testing/download/@types/rx-lite-testing-4.0.1.tgz#21b19d11f4dfd6ffef5a9d1648e9c8879bfe21e9"
+  integrity sha1-IbGdEfTf1v/vWp0WSOnIh5v+Iek=
+  dependencies:
+    "@types/rx-lite-virtualtime" "*"
+
+"@types/rx-lite-time@*":
+  version "4.0.3"
+  resolved "https://registry.npm.taobao.org/@types/rx-lite-time/download/@types/rx-lite-time-4.0.3.tgz#0eda65474570237598f3448b845d2696f2dbb1c4"
+  integrity sha1-DtplR0VwI3WY80SLhF0mlvLbscQ=
+  dependencies:
+    "@types/rx-lite" "*"
+
+"@types/rx-lite-virtualtime@*":
+  version "4.0.3"
+  resolved "https://registry.npm.taobao.org/@types/rx-lite-virtualtime/download/@types/rx-lite-virtualtime-4.0.3.tgz?cache=0&sync_timestamp=1605060876549&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Frx-lite-virtualtime%2Fdownload%2F%40types%2Frx-lite-virtualtime-4.0.3.tgz#4b30cacd0fe2e53af29f04f7438584c7d3959537"
+  integrity sha1-SzDKzQ/i5TrynwT3Q4WEx9OVlTc=
+  dependencies:
+    "@types/rx-lite" "*"
+
+"@types/rx-lite@*":
+  version "4.0.6"
+  resolved "https://registry.npm.taobao.org/@types/rx-lite/download/@types/rx-lite-4.0.6.tgz#3c02921c4244074234f26b772241bcc20c18c253"
+  integrity sha1-PAKSHEJEB0I08mt3IkG8wgwYwlM=
+  dependencies:
+    "@types/rx-core" "*"
+    "@types/rx-core-binding" "*"
+
+"@types/rx@^4.1.2":
+  version "4.1.2"
+  resolved "https://registry.npm.taobao.org/@types/rx/download/@types/rx-4.1.2.tgz#a4061b3d72b03cf11a38d69e2022a17334c54dc0"
+  integrity sha1-pAYbPXKwPPEaONaeICKhczTFTcA=
+  dependencies:
+    "@types/rx-core" "*"
+    "@types/rx-core-binding" "*"
+    "@types/rx-lite" "*"
+    "@types/rx-lite-aggregates" "*"
+    "@types/rx-lite-async" "*"
+    "@types/rx-lite-backpressure" "*"
+    "@types/rx-lite-coincidence" "*"
+    "@types/rx-lite-experimental" "*"
+    "@types/rx-lite-joinpatterns" "*"
+    "@types/rx-lite-testing" "*"
+    "@types/rx-lite-time" "*"
+    "@types/rx-lite-virtualtime" "*"
 
 "@types/source-list-map@*":
   version "0.1.2"
@@ -9480,6 +9586,13 @@ run-queue@^1.0.0, run-queue@^1.0.3:
   integrity sha1-6Eg5bwV9Ij8kOGkkYY4laUFh7Ec=
   dependencies:
     aproba "^1.1.1"
+
+rxjs@^6.6.3:
+  version "6.6.3"
+  resolved "https://registry.npm.taobao.org/rxjs/download/rxjs-6.6.3.tgz?cache=0&sync_timestamp=1607305574298&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Frxjs%2Fdownload%2Frxjs-6.6.3.tgz#8ca84635c4daa900c0d3967a6ee7ac60271ee552"
+  integrity sha1-jKhGNcTaqQDA05Z6buesYCce5VI=
+  dependencies:
+    tslib "^1.9.0"
 
 safe-buffer@5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.2"
