@@ -1,35 +1,22 @@
-import React, { useCallback, useEffect, useRef, useState } from "react";
+import { isEqual } from "lodash";
+import React, { useEffect, useRef, useState } from "react";
 import {
-  Observable,
-  Observer,
-  of,
-  fromEvent,
-  Subscription,
   from,
-  Subject,
+  fromEvent,
   interval,
-  EMPTY,
+  Observable,
+  of,
+  Subject,
+  Subscription,
 } from "rxjs";
 import { fromFetch } from "rxjs/fetch";
-import _, { isEqual } from "lodash";
-import {
-  filter,
-  take,
-  switchMap,
-  catchError,
-  bufferCount,
-  map,
-  bufferTime,
-  bufferWhen,
-  bufferToggle,
-} from "rxjs/operators";
+import { bufferCount, catchError, map, switchMap, take } from "rxjs/operators";
 function App() {
   const rxEvent$ = useRef<Observable<MouseEvent>>();
   const rxArray$ = useRef<Observable<number>>();
   const rxInterval$ = useRef<Observable<number>>();
-  const rxFetch$ = useRef<
-    Observable<number | { error: boolean; message: any }>
-  >();
+  const rxFetch$ =
+    useRef<Observable<number | { error: boolean; message: any }>>();
 
   const subscribtion = useRef<Subscription>();
   const subject = useRef<Subject<unknown>>();
@@ -156,6 +143,7 @@ function App() {
       }}
     >
       <div style={{ flex: 1 }}>
+        just for test
         <h1>Type as fast as you can:↑↑↓↓←→←→BABA</h1>
         <h1 style={{ display: "inline" }}>input: </h1>
         {keys.slice(-12).map((item, index) => (
